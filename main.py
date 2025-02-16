@@ -56,8 +56,8 @@ def get_integration_json(request: Request):
             "author": "Temitope",
             "website": base_url,
             "settings": [
-                {"label": "https://www.google.com", "type": "text", "required": True, "default": ""},
-                {"label": "https://www.github.com", "type": "text", "required": True, "default": ""},
+                {"label": "site-1", "type": "text", "required": True, "default": ""},
+                {"label": "site-2", "type": "text", "required": True, "default": ""},
                 {
                     "label": "interval",
                     "type": "text",
