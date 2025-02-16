@@ -53,7 +53,7 @@ def get_integration_json(request: Request):
             "integration_type": "interval",
             "key_features": ["- monitors websites"],
             "category": "Monitoring",
-            "author": "Osinachi Chukwujama",
+            "author": "Temitope",
             "website": base_url,
             "settings": [
                 {"label": "site-1", "type": "text", "required": True, "default": ""},
