@@ -89,7 +89,7 @@ async def check_site_status(site: str, max_retries: int = 3, timeout: float = 10
             
             # Check if response indicates success
             if 200 <= response.status_code < 400:
-                return None  # Site is up
+                return f"Site {site} is up and running"  # Site is up
                 
             return f"Site {site} is down (HTTP {response.status_code})"
             
