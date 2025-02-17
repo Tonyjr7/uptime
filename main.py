@@ -52,7 +52,7 @@ def get_integration_json(request: Request):
             "is_active": False,
             "integration_type": "interval",
             "key_features": ["- monitors websites"],
-            "integration_category": "Monitoring",
+            "integration_category": "Monitoring & Logging",
             "author": "Temitope",
             "website": base_url,
             "settings": [
